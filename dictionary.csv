@@ -1,15 +1,4 @@
-id,jp,eng
-1,火,Fire
-2,水,Water
-3,土,Earth
-4,風,Wind
-5,悪魔,Demon
-6,蟲族,Insect
-7,獣族,Beast
-8,人型,Humanoid
-9,飛行,Flying
-10,水棲,Aquatic
-11,植物,Plant
-12,無機,Inorganic
-13,死霊,Undead
-14,竜族,Dragonkind
+id,name,link
+1,Mousse au chocolat,mousse.html
+2,Flan,flan.html
+3,Une banane,banane.html
