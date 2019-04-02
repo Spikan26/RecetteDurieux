@@ -20,8 +20,8 @@ function Search (input) {
     var result = "Not Found"
     //console.log(input);
     textdata.forEach(function (d) {
-        if(input == d.jp){
-            result = d.eng;
+        if(input == d.name){
+            result = d.name;
         }
         if(input == " "){
             result = "Type your text";
@@ -35,11 +35,11 @@ function Table () {
     $(".bodytab").html("");
     textdata.forEach(function (d) {
         if(newinput == " "){
-            console.log(d.jp);
-            $(".bodytab").append("<tr><th scope='row'>" + d.jp +"</th><td>" + d.eng + "</td></tr>");
+            console.log(d.name);
+            $(".bodytab").append("<tr><th scope='row'>" + d.name +"</th><td>" + d.name + "</td></tr>");
         }
-        else if((d.jp).startsWith(newinput)){
-            $(".bodytab").append("<tr><th scope='row'>" + d.jp +"</th><td>" + d.eng + "</td></tr>");
+        else if((d.name).startsWith(newinput)){
+            $(".bodytab").append("<tr><th scope='row'>" + d.name +"</th><td>" + d.name + "</td></tr>");
         }
     })
 }
