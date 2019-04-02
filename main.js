@@ -36,10 +36,10 @@ function Table () {
     textdata.forEach(function (d) {
         if(newinput == " "){
             console.log(d.name);
-            $(".bodytab").append("<tr><th scope='row' style='vertical-align: middle;'>" + d.name +"</th><td><img src='" + d.image + "' height='50px' width='50px' /></td></tr>");
+            $(".bodytab").append("<tr><th scope='row' style='vertical-align: middle;'><a href='" + d.link + "'>" + d.name + "</a></th><td><a href='" + d.link + "'><img src='" + d.image + "' height='150px' width='150px' /></a></td></tr>");
         }
         else if((d.name).toLowerCase().includes(newinput.toLowerCase())){
-            $(".bodytab").append("<tr><th scope='row' style='vertical-align: middle;'>" + d.name +"</th><td><img src='" + d.image + "' height='50px' width='50px' /></td></tr>");
+            $(".bodytab").append("<tr><th scope='row' style='vertical-align: middle;'><a href='" + d.link + "'>" + d.name + "</a></th><td><a href='" + d.link + "'><img src='" + d.image + "' height='150px' width='150px' /></a></td></tr>");
         }
     })
 }
