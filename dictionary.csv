@@ -1,4 +1,4 @@
-id,name,link
-1,Mousse au chocolat,mousse.html
-2,Flan,flan.html
-3,Une banane,banane.html
+id,name,link,image
+1,Mousse au chocolat,mousse.html,muffin.jpg
+2,Flan,flan.html,muffin.jpg
+3,Une banane,banane.html,muffin.jpg
